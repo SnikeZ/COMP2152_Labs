@@ -31,5 +31,7 @@ try:
         print("You rolled a moderate element")
     else:
         print("Nice element.")
+except IndexError:
+    print("Error: Invalid element index!")        
 except Exception as e:
-    pass
+    print(f"An unexpected error occurred: {e}") 
