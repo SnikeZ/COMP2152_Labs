@@ -1,0 +1,3 @@
+[submodule "comp2152_week03"]
+	path = comp2152_week03
+	url = git@github.com:SnikeZ/comp2152_week03.git
